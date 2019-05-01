@@ -25,8 +25,8 @@ class ExampleInstrumentedTest {
      @Test
      public fun CheckNumber() {
          MainActivity.CheckNumber()
-         if ()
-
+         val x = 2
+         if (x%2 == 0)
      }
 
     @Test
